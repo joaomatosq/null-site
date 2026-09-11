@@ -98,3 +98,19 @@ body {
     margin-bottom: 1.5rem;
   }
 }
+
+.back-link {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.page-title {
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-weight: 200;
+  letter-spacing: 8px;
+  text-transform: lowercase;
+}
