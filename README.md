@@ -1,2 +1,2 @@
-# a website for my band: [@nullgaze](https://instagram.com)
+# a website for my band: [@nullgaze](https://www.instagram.com/nullgaze/)
 
