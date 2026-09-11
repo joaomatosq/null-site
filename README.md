@@ -1,1 +1,1 @@
-# null-site
+# a website for my band: @nullgaze
