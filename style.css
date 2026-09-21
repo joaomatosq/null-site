@@ -123,3 +123,25 @@ body {
   letter-spacing: 8px;
   text-transform: lowercase;
 }
+
+
+
+
+.buy-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-weight: 200;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buy-link:hover {
+  background-color: #fff;
+  color: #000;
+  animation: flicker 1.2s linear infinite;
+}
