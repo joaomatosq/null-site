@@ -133,7 +133,8 @@ body {
   padding: 12px 32px;
   border: 1px solid #fff;
   color: #fff;
-  text-decoration: none;
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
   letter-spacing: 2px;
   text-transform: lowercase;
   font-weight: 200;
@@ -141,6 +142,27 @@ body {
 }
 
 .buy-link:hover {
+  background-color: #fff;
+  color: #000;
+  animation: flicker 1.2s linear infinite;
+}
+
+
+
+.buy-link2 {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-weight: 200;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buy-link2:hover {
   background-color: #fff;
   color: #000;
   animation: flicker 1.2s linear infinite;
