@@ -167,3 +167,41 @@ body {
   color: #000;
   animation: flicker 1.2s linear infinite;
 }
+
+/* Páginas com rolagem (about) */
+body.scroll {
+  height: auto;
+  min-height: 100dvh;
+  overflow-y: auto;
+}
+
+body.scroll .content {
+  height: auto;
+  min-height: 100vh;
+  padding: 48px 20px;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  max-width: 560px;
+  padding: 20px 24px;
+  background-color: rgba(0, 0, 0, 0.75); /* legibilidade em cima do GIF */
+  text-align: left;
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.about-text p + p {
+  margin-top: 1rem;
+}
+
+.about-text a {
+  color: #fff;
+}
